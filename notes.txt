@@ -1,0 +1,12 @@
+6/20/2024
+-watching this video https://www.youtube.com/watch?v=nu_pCVPKzTk
+-web development involves using html for structyure, css for styling and javascript for functionality
+-replit is used as the coding environment for instruction
+-i have no interest in using replit, so ill just stay here on VSC. 
+-lets make relevant files
+-html uses tags with things in between the opening and closing tags. 
+-examples: 
+<h1>Hi, welcome</h1> 
+<p>This is a  new paragraph</p>
+<tag>The content</tag>
+-stopping point 10:14
