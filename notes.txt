@@ -1,12 +1,26 @@
 6/20/2024
--watching this video https://www.youtube.com/watch?v=nu_pCVPKzTk
--web development involves using html for structyure, css for styling and javascript for functionality
--replit is used as the coding environment for instruction
--i have no interest in using replit, so ill just stay here on VSC. 
--lets make relevant files
--html uses tags with things in between the opening and closing tags. 
--examples: 
-<h1>Hi, welcome</h1> 
-<p>This is a  new paragraph</p>
-<tag>The content</tag>
--stopping point 10:14
+    -watching this video https://www.youtube.com/watch?v=nu_pCVPKzTk
+    -web development involves using html for structyure, css for styling and javascript for functionality
+    -replit is used as the coding environment for instruction
+    -i have no interest in using replit, so ill just stay here on VSC. 
+    -lets make relevant files
+    -html uses tags with things in between the opening and closing tags. 
+    -examples: 
+    <h1>Hi, welcome</h1> 
+    <p>This is a  new paragraph</p>
+    <tag>The content</tag>
+    -stopping point 10:14
+6/21/2024
+    -continuing from last time
+    -to start a webpage, you need a <!DOCTYPE> declaration
+    -everything within the declaration type like for example <html>stuff</html>
+    -<body> tag goes within html tag
+    -within the body tag we can use heading tags h1 to h6, lower the number, larger the text
+    -<p> paragraph tag is for non header text, it wont be in bold like header text.
+    -<a> is html attributes, it takes in parameters:
+        example:
+        <a href="https://google.com">Click this link</a>
+    -<img> image tag doesnt need a closing tag, it just needs a source
+        example:
+        <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww">
+    -Stopping at 21:30
