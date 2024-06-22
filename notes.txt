@@ -1,8 +1,7 @@
 6/20/2024
     -watching this video https://www.youtube.com/watch?v=nu_pCVPKzTk
     -web development involves using html for structyure, css for styling and javascript for functionality
-    -replit is used as the coding environment for instruction
-    -i have no interest in using replit, so ill just stay here on VSC. 
+    -replit is used as the coding environment for instruction 
     -lets make relevant files
     -html uses tags with things in between the opening and closing tags. 
     -examples: 
@@ -24,3 +23,14 @@
         example:
         <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww">
     -Stopping at 21:30
+6/22/2024
+    -continuing from last time
+    -within an image tag, we can include attributes that modify the image, like height
+    -within the paragraph tag we can also include attributes, for example: title
+    -new line can be achieved by using <br> tag whihc is short for break
+    -if we use a <pre> tag, we can write using several lines without having to use the break tag. Both the tag and content are space and line sensitive.
+    -The <hr> tag is like the break tag, but for inserting horizontal lines into text
+    -now moving on the formatting elements
+    -<b> can be used to write bold text
+    -<strong> is the same as <b>
+    -stopping point 32:30
