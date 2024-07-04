@@ -34,3 +34,10 @@
     -<b> can be used to write bold text
     -<strong> is the same as <b>
     -stopping point 32:30
+7/4/2024
+    -continuing from last time
+    -<em></em> is for emphasized text
+    -<i></i> is for italic text, same as em
+    -<mark></mark is for highlighting text
+    -<del></del> is for strikethrough text
+    -stopping point 35:37
