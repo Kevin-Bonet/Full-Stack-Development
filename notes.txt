@@ -41,3 +41,35 @@
     -<mark></mark is for highlighting text
     -<del></del> is for strikethrough text
     -stopping point 35:37
+7/10/2024
+    -continuing from last time
+    -underline using <ins></ins>
+    -make small text using <small></small>
+    -make subscripts using 0<sub></sub>
+    -make superscripts using 0<sup></sup>
+    -change text colors by using the style="color:blue" and or "background-color:red" attribute within header tags
+    -separate style attributes using semicolon ;
+    -comment things out using <!-- at the start of the comment and --> at the end of the comment
+    -make your links open new tabs by using the target attribute within a tags
+    -stopping at 45:35
+7/15/2024
+    -continuing from last time
+    -there is a difference between relative url and absolute url
+    -in the link in new tab example, we could replace the google link with /go and get the replit website /go, since this is also a relative website
+    -to clarify: google.com is a relative link, https://google.com is an absolute link, unrelated to the replit website we are using
+    -we can get links to emails by using href:"mailto:username@email.com" within the a tag
+    -titles and favicons...
+    -title refers to what appears at the top of the tab:
+        <head>
+            <title>Write your desired title</title>
+        </head>
+    -favicon is the image/logo appearing before the title at the top of the tab
+        <head>
+            <title>Write your desired title</title>
+            <link rel="icon" href="image-link">
+        </head>
+    -tables: in the body tag, use the <table></table> tag and table rows using <tr></tr> and table headings using <th></th> and table data with <td></td>
+    -lists: for unordered list use <ul></ul>, for ordered lists use <ol></ol>for list items use <li></li>
+    -if we want out lists to be descriptive use description lists using <dl></dl>, for each item use <dt></dt> and for the description per item use <dd></dd>
+    -block elements and inline elements: block starts in a new line, inline doesnt and doesnt have a space before and after the element
+    -stopping at 1:00:00 1st hour milestone reached
