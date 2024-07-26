@@ -104,4 +104,9 @@ HTML SECTION COMPLETE, NOW FOR CSS SECTION
     -connect your ccs style sheet to your html by using a <link rel="stylesheet" href=""> tag in the html file
     -in css our syntax involves a selector and an declaration. in simple terms the thin you wanna change in the start, and the changes you make between curly braces
     -for example if in css file i say body{}, im affecting the <body></body> tag in my html file
-    
+    -So ive spent a while debugging an issue with my css file. It was loading fine in firefox but not in chrome. After much research my understanding is that my html file was loading from a file:/// protocol, which causes the discrepancy between firefox and chrome, because the browsers have different security protocols. Chrome in particular makes it not possible to lead .css and  .js files.
+        -The solution I found was to host the website using the live server extension available for VSC. This made chrome use the http:// protocol instead and i could finally see my css settings in action in both browsers (http://127.0.0.1:5500/index.html)
+    -comment in css using /* */
+    -use id as attributes in tags to help css affect that element in specific and access in css using #
+    -1:41:35
+
