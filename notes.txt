@@ -98,3 +98,10 @@
     -between the form tags you set up all of the elements you want, but within the form tag is where you set up where the information goes and the behaviour you want the form to take
     -action="" attribute within the form tag is for writing the place where the form info is going, it could be another html file or a link
     -GET and POST are the two options available to dictate how to form behaves, you select it in the form tag with a method=""
+    -GET puts the details in the url bar, POST does not do that. GET is default if one is not selected
+    -Locally setting up an HTML file (i think i can skip this)
+HTML SECTION COMPLETE, NOW FOR CSS SECTION 
+    -connect your ccs style sheet to your html by using a <link rel="stylesheet" href=""> tag in the html file
+    -in css our syntax involves a selector and an declaration. in simple terms the thin you wanna change in the start, and the changes you make between curly braces
+    -for example if in css file i say body{}, im affecting the <body></body> tag in my html file
+    
