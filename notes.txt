@@ -109,4 +109,10 @@ HTML SECTION COMPLETE, NOW FOR CSS SECTION
     -comment in css using /* */
     -use id as attributes in tags to help css affect that element in specific and access in css using #
     -1:41:35
+8/1/2024
+    -in css file you can select specific elements by selecting its class
+    -in css file using only an asterisk makes everything in the html be affected by whatever is between those specific brackets
+    -in css file you can use same brackets and select several elements using a comma
+    -backgrounds in css
+    -1:48:00
 

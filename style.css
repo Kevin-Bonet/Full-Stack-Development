@@ -2,3 +2,18 @@
 body {background-color: green}
 
 #idTesting {background-color: chocolate;}
+
+/*we can select using dot and class*/
+h1.heading {
+    color: blue;
+}
+
+/* using only an asterisk makes everything in the html be affected by whatever is between these specific brackets*/
+
+*{/*affects everything*/}
+
+/*separate selected elements using a comma*/
+
+h1.heading, #school {
+    background-color: chocolate;
+}
