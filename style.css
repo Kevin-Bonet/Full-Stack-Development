@@ -1,5 +1,10 @@
 /*Comment*/
-body {background-color: green}
+body {/*background-color: green;*/
+    /*opacity: 0.4;*/
+    background-image: url("https://design-style-guide.freecodecamp.org/img/fcc_secondary_large.svg");
+    background-position: bottom;
+    
+}
 
 #idTesting {background-color: chocolate;}
 
@@ -16,4 +21,18 @@ h1.heading {
 
 h1.heading, #school {
     background-color: chocolate;
+}
+
+p.Margins {
+    margin-left: 20px;
+    margin-bottom: 20%;
+    /*margin: topvalue rightvalue bottomvalue leftvalue;*/
+    /*margin: allvalue;*/
+    /*margin: inherit;
+    it will inherit based on the tag that it is within, lets say theres a 
+    <b>
+        <p></p>
+    </b>
+    the p will inherit whatever you used to modify b in css
+    */
 }
