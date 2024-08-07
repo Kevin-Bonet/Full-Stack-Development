@@ -73,3 +73,7 @@
     -if we want out lists to be descriptive use description lists using <dl></dl>, for each item use <dt></dt> and for the description per item use <dd></dd>
     -block elements and inline elements: block starts in a new line, inline doesnt and doesnt have a space before and after the element
     -stopping at 1:00:00 1st hour milestone reached
+
+    8/7/2024
+        -Progress had been made on PC, but i have yet to push those changes. Will carry on work on  2:50:00
+        -tables
