@@ -1,0 +1,79 @@
+body {
+
+}
+
+h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    height: 50px;
+}
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+tr:hover{
+    background-color: blue;
+    /*display: none; leads to removal of element*/
+    /*visibility: hidden; leads to the element remaining but being invisible*/   
+}
+
+/*descendant selector*/
+h1 b{
+    color: red;
+}
+
+/*h1 > b {} child selector*/
+/*h1 + b {} adjacent selector*/
+/*h1 ~ b {} adjacent sibling selector*/
+
+.dropdown {
+    position: relative;
+    display: inline;
+}
+.dropdownbutton {
+    background-color: blue;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 150px;
+}
+
+.dropdown-menu a {
+    color: black;
+    passing: 11px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover{
+    background-color: white;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdownbutton {
+    background-color: gray;
+}
+
+div[class="testerino"] {
+    color: red;
+}

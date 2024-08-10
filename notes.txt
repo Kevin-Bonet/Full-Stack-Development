@@ -74,6 +74,14 @@
     -block elements and inline elements: block starts in a new line, inline doesnt and doesnt have a space before and after the element
     -stopping at 1:00:00 1st hour milestone reached
 
-    8/7/2024
-        -Progress had been made on PC, but i have yet to push those changes. Will carry on work on  2:50:00
-        -tables
+8/7/2024
+    -Progress had been made on PC, but i have yet to push those changes. Will carry on work on  2:50:00
+    -tables [wont work, troubleshooting...]
+8/9/2024
+    -got it all fixed, issue was that the line connecting the css to the html was gone 
+    -display and visibility
+    -combinators
+    -dropdown menu
+    -attribute selector
+    -milestone reached: finished css tutorial
+    -STOPPING AT 3:17:01
