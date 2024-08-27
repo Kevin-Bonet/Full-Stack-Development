@@ -85,4 +85,63 @@
     -attribute selector
     -milestone reached: finished css tutorial
     -STOPPING AT 3:17:01
+7/22/2024
+    -div tag <div></div> is good for dividing a page into several sections
+    -a benefit of dividing a page into several sections by using divs is that you can change attributes within a particular div
+    -stopping at 1:03:00
+7/23/2024
+    -There are tags like div that dont take up so much space, like a tags and b tags
+    -you can use a p tag and put a b tag within it
+    -iframe: <iframe></iframe> is used to use a webpage withing a webpage
+    -there are signs we can write using their code, for example copywrite sign can be:
+        U+000A9
+        UNICODE
+        &#xa9;
+        HEX CODE
+        &#169;
+        HTML CODE
+        &copy;
+        HTML ENTITY
+    -stopping at 1:10:55, hoping to do more later today
+7/24/2024
+    -Forms:<form><label></label><input type="text"></form>, these are examples of tag usage. more details on implementation on the html file
+    -stopping at 1:20:00
+7/26/2024
+    -between the form tags you set up all of the elements you want, but within the form tag is where you set up where the information goes and the behaviour you want the form to take
+    -action="" attribute within the form tag is for writing the place where the form info is going, it could be another html file or a link
+    -GET and POST are the two options available to dictate how to form behaves, you select it in the form tag with a method=""
+    -GET puts the details in the url bar, POST does not do that. GET is default if one is not selected
+    -Locally setting up an HTML file (i think i can skip this)
+HTML SECTION COMPLETE, NOW FOR CSS SECTION 
+    -connect your ccs style sheet to your html by using a <link rel="stylesheet" href=""> tag in the html file
+    -in css our syntax involves a selector and an declaration. in simple terms the thin you wanna change in the start, and the changes you make between curly braces
+    -for example if in css file i say body{}, im affecting the <body></body> tag in my html file
+    -So ive spent a while debugging an issue with my css file. It was loading fine in firefox but not in chrome. After much research my understanding is that my html file was loading from a file:/// protocol, which causes the discrepancy between firefox and chrome, because the browsers have different security protocols. Chrome in particular makes it not possible to lead .css and  .js files.
+        -The solution I found was to host the website using the live server extension available for VSC. This made chrome use the http:// protocol instead and i could finally see my css settings in action in both browsers (http://127.0.0.1:5500/index.html)
+    -comment in css using /* */
+    -use id as attributes in tags to help css affect that element in specific and access in css using #
+    -1:41:35
+8/1/2024
+    -in css file you can select specific elements by selecting its class
+    -in css file using only an asterisk makes everything in the html be affected by whatever is between those specific brackets
+    -in css file you can use same brackets and select several elements using a comma
+    -backgrounds in css
+    -1:48:00
+8/2/2024
+    -in the css file you can select opacity values
+    -in css you can select a background image
+    -more css stuff
+    -2:00:00
+    -continuing: border styles
+    -padding
+    -2:30:00
+8/3/2024
+    -alignment
+    -text decoration
+    -text transform
+    -fonts
+    -icons accessed by using <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    -table borders
+    -2:50:00
+8/5/2024
     -

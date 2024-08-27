@@ -77,3 +77,86 @@ h1 b{
 div[class="testerino"] {
     color: red;
 }
+/*Comment*/
+body {/*background-color: green;*/
+    /*opacity: 0.4;*/
+    background-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--av7v8wpM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/olpxro7h1exdk1uxe4eq.png");
+    background-position: bottom;
+    
+}
+
+#idTesting {background-color: chocolate;}
+
+/*we can select using dot and class*/
+h1.heading {
+    color: blue;
+}
+
+/* using only an asterisk makes everything in the html be affected by whatever is between these specific brackets*/
+
+*{/*affects everything*/}
+
+/*separate selected elements using a comma*/
+
+h1.heading, #school {
+    background-color: chocolate;
+}
+
+p.Margins {
+    margin-left: 20px;
+    margin-bottom: 20%;
+    /*margin: topvalue rightvalue bottomvalue leftvalue;*/
+    /*margin: allvalue;*/
+    /*margin: inherit;
+    it will inherit based on the tag that it is within, lets say theres a 
+    <b>
+        <p></p>
+    </b>
+    the p will inherit whatever you used to modify b in css
+    */
+}
+
+p {
+    border-style: dotted; /*solid or groove or dashed or double or ridge or outset or inset or hidden are valid options. you can also write up to 4 options at once, selecting a border option per side*/
+    border-width: 6px; /*You can also write up to four values to select a side per value*/
+    border-color: purple blue green red;
+}
+
+h1 {
+    border-top-style: 100px dashed purple; /*might be getting overwritten by other instructions given, be mindful of interactions and keep code tidy*/
+    border-right-style: solid;
+    border-bottom-style: groove;
+    border-left-style: double;
+    border-radius: 10px;
+    padding-top: 40px;
+    height: 90px;
+    width: 50%;
+    max-width: 50%;
+    outline-style: solid;
+    text-align: center;
+    text-align-last: justify;
+    vertical-align: center;
+}
+h2 {
+    vertical-align: top;
+    /*
+    text-decoration-line: overline underline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 10px;
+    */
+    text-decoration: overline purple solid 6px; /*none can be used to make links look like regular text*/
+    text-transform: uppercase;
+    text-indent: 30px;
+    letter-spacing: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+table, th, td { 
+    border: 2px solid;
+    width: 50%;
+    border-collapse: collapse;
+}

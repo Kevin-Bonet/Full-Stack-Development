@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>My Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdrjS4w-ywLv8ImtLMnSNEt_NDo2c6V74F0A&s">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -31,7 +33,7 @@ lines.<hr>
     <br>
     <ins>Here is some underlined text</ins>
     <br>
-    <small>Here is some small text</small>
+    <small id="idTesting">Here is some small text, with an id selected in css</small>
     <br>
     0<sub>2</sub>
     0<sup>2</sup>
@@ -97,6 +99,42 @@ lines.<hr>
         <dt>Name 3</dt>
         <dd>*This is the third name</dd>
     </dl>
+    <div style="color: green; background-color: blue;">
+        <h1>First div</h1>
+        <b>trying out divs, have some bold text</b>
+    </div>
+    <div style="color: red; background-color: purple;">
+        <h2>trying out divs, have some header 2 text</h2>
+        <b>this is bold</b>
+    </div>
+    <!-- this way of doing things doesnt work due to security policies enforced by websites. each website will have its specifications on how to actually make an iframe work, below this is an example with youtube, gotten from the share tab. The tag can be modified, byt the link must stay the same
+    <iframe src="https://www.instagram.com"></iframe>
+    -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jkLRith2wcc?si=5e9oxXiGxVDTf3Ky" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <p>here is a copywrite sign &#169;. This sign and many others can be used by writing their html code</p>
+    <br>
+    <form action="form.html" method="POST">
+        <label for="username">Name</label>
+        <br>
+        <input type="text" name="username" id="username" value="Tomi">
+        <input type="number">
+        <input type="checkbox">
+        <input type="radio">
+        <br>
+        <label for="">School</label>
+        <br>
+        <input type="text" name="school" id="school">
+        <br>
+        <input type="submit" value="Send">
+    </form>
+    <!--highlighting other forms of selecting elements in css by using class-->
+    <h1 class="heading">Tomi, is h1 text with a class selected in css</h1>
+    <p class="heading">Tomi, is p text with a class not selected in css</p>
+    <p class="Margins">Working on margins</p>
+    <h2>more changes</h2>
+    <i class="material-icons">cloud</i>
+    <i class="material-icons">computer</i>
     <table>
         <tr>
             <th>Name</th>
@@ -126,5 +164,13 @@ lines.<hr>
     <div class="testerino">
         <p>Hi</p>
     </div>
+            <td>John</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Tim</td>
+            <td>19</td>
+        </tr>
+    </table>
 </body>
 </html>
