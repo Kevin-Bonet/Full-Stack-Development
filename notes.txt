@@ -120,3 +120,16 @@ HTML SECTION COMPLETE, NOW FOR CSS SECTION
     -in css you can select a background image
     -more css stuff
     -2:00:00
+    -continuing: border styles
+    -padding
+    -2:30:00
+8/3/2024
+    -alignment
+    -text decoration
+    -text transform
+    -fonts
+    -icons accessed by using <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    -table borders
+    -2:50:00
+8/5/2024
+    -
