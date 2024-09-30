@@ -145,3 +145,10 @@ HTML SECTION COMPLETE, NOW FOR CSS SECTION
     -2:50:00
 8/5/2024
     -
+9/30/2024
+    -pickup from last time at 2:50:00
+    -Seems i was wrong to start there, since i was starting the javascript section, which is at 3:15:30
+    -its a game about fighting a monster
+    -var can lead to weird behaviours, use let instead
+    -var keeps values set in functions, let resets to original values once a function is done using a variable
+    
