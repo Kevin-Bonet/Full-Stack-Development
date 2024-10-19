@@ -152,3 +152,10 @@ HTML SECTION COMPLETE, NOW FOR CSS SECTION
     -var can lead to weird behaviours, use let instead
     -var keeps values set in functions, let resets to original values once a function is done using a variable
     -stopping at 4:21:00
+10/18/2024
+    -picking up from 4:21:00
+    -after some debugging i fixed the locations and the enemy name display
+    -the locations error was tough because the issue was unclear, fortunately chatgpt gave me the answer: "The error you're encountering (Uncaught TypeError: location is undefined) happens because location is a reserved keyword in JavaScript, used by the browser to reference the URL of the current document. When you use location as a variable name in your code, it's conflicting with the built-in location object, causing the error. To fix the issue, you should rename your locations variable (the array that holds the game locations) to something else. For example, you could rename it to gameLocations."
+    -adding new features (tried to just take in the video for 5mins before following along and i ended up beatboxing, humming and scatting. Damn ADHD man, this sucks. wont do that again.)
+    -finished the javascript part, it is more effective for me to play the video as fast as i can follow and stop and code when necessary
+    -im crashing due to tiredness, stopping at 5:15:00
