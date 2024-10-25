@@ -159,3 +159,27 @@ HTML SECTION COMPLETE, NOW FOR CSS SECTION
     -adding new features (tried to just take in the video for 5mins before following along and i ended up beatboxing, humming and scatting. Damn ADHD man, this sucks. wont do that again.)
     -finished the javascript part, it is more effective for me to play the video as fast as i can follow and stop and code when necessary
     -im crashing due to tiredness, stopping at 5:15:00
+10/19/2024
+    -picking up from 5:15:00 the front end movie app
+    -one thing to note is that you can get conflicting behaviours across browsers. One thing ive found is that parent and child containers can sometimes be key in making things consistent. Apply the changes you cant but go up a level to a parent or down a level to a child and see what happens
+    -getting the api for the movie database was a hassle
+    -using what the video says is tough since some of the stuff is depracated or doesnt work the way he suggests it does. Following suggestions from chat gpt, i made the changes that got things working the way i wanted them to be:
+        -make sure to use back ticks `` for template literals, e.g.:
+             title.innerHTML = `${element.title}`; // Use backticks for template literals
+        -be sure not to misspell things like id, i had written is
+        -it suggested checking if poster path is available and printing it to console, great debugging troubleshooting
+        -the poster path needs to be constructed properly, thats where these lines came in:
+            const fullImageURL = IMG_PATH + element.poster_path;
+            image.src = fullImageURL;
+        -the div_card.appendChild(image); was not present, so no images were shown until i fixed that
+        -updated css to use flexbox for the container
+            display: flex;
+            flex-wrap: wrap;
+    -Now for creating backend reviews API at 5:44:00
+10/20/2024
+    -picking up from 5:44:00
+    -ive been made aware that api keys and passwords would be made available to the public unless i take steps to make an untracked .env file. Its a detour but im putting in the time to make this security change
+    -stopping at 6:17:00
+10/24/2024
+    -heres a note on how to run the javascript file from the review backend project. first use a terminal to go to the path where the file you want to run is located, then run npm "file". Then you can actually run it and have it working, otherwise if you just run it then it wont load the env variable values properly and you just end up stuck. You can do this from the VSC terminal, or windows powershell, its fine really, just make sure you are doing it.
+    -turns out the reason it didnt run with the regular run option in vsc is because i didnt have a launch.json set up. this file is what specifies what runs and how, setting that file up allowed me to place a line in that specified the use of the env file, therefor enabling the use of environment variables, now the file runs under all conditions 
