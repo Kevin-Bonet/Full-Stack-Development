@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131720;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container{
+    float: right;
+}
+
+form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius:11px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    color: black;
+    font: 15px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+
+.thumbnail {
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+}
+
+ .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows the row to wrap onto the next line if there's too much content */
+    margin: 10px 0; /* Space between rows */  
+} 
+section{
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto new lines */
+    justify-content: center; /* Centers the cards horizontally */
+    padding-left: 0; /* Remove any padding that might offset the content */
+}
+.column {
+
+     padding: 10px;
+} 
+.card{
+
+    width: 95%; /* Keep a consistent card width */
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center; /* Center the content inside the card */
+    background-color: #151f30;
+    margin: 10px; /* Add margin around each card */
+}
+h3 {
+    color: white;
+    text-align: center; /* Center the text */
+}

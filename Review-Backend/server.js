@@ -3,8 +3,8 @@ import cors from "cors"
 import reviews from "./API/reviews.route.js"
 
 const app = express()
-
-app.use(cors())
+app.use(cors({ origin: 'http://127.0.0.1:5500' }));
+//app.use(cors())
 app.use(express.json())
 
 app.use("/api/v1/reviews", reviews)

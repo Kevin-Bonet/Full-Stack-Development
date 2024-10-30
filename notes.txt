@@ -183,3 +183,14 @@ HTML SECTION COMPLETE, NOW FOR CSS SECTION
 10/24/2024
     -heres a note on how to run the javascript file from the review backend project. first use a terminal to go to the path where the file you want to run is located, then run npm "file". Then you can actually run it and have it working, otherwise if you just run it then it wont load the env variable values properly and you just end up stuck. You can do this from the VSC terminal, or windows powershell, its fine really, just make sure you are doing it.
     -turns out the reason it didnt run with the regular run option in vsc is because i didnt have a launch.json set up. this file is what specifies what runs and how, setting that file up allowed me to place a line in that specified the use of the env file, therefor enabling the use of environment variables, now the file runs under all conditions 
+    -tried out my back end server using localhost:8000 on my browser after starting the index.js file that fires up the server. I could see the proper error catching for when the "site" is unspecified. then i added /api/v1/reviews and it properly executed the hello world i ahd set up. so far so good 
+    -having a : in your route like in router.route("/movie/:id").get(ReviewsCtrl.apiGetReviews) that turns whatever is after it into a variable, in this case id is now a variable you can work with
+    -there is a shell command used to make a test and upload/POST to the database, it doesnt work in powershell since windows is not unix based, but i had git bash installed and managed to use it there just fine
+    -had to put "new" in several parts of GetUpdateDeletePost code and it works now but theres stuff there thats depracated
+    -remember to stop the port and run it again bewteen each code change so the changes are relfected, spent a while trying to figure out a problem that didnt exist
+    -finished that section of the video, stopping at 6:49:00 
+10/29/2024
+    -picking up from 6:49:00
+    -getting the javasript servers to run using the vsc terminal requires setting up the appropriate lines in the launch.json
+    -got everything working, last hurdle was a bug where the return reviews function on the movie.js file was clearing out the contents on main, so my review form was loading, then being erased as soon as the website fetched reviews. problem was fixed by not clearing main, and by making the form be its own div. Success. 
+    -Time to update repo, make readme files, record some youtube demos and announce on linkedin.
